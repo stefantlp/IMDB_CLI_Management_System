@@ -1,10 +1,10 @@
-# IMDB_CLI_Management_System
+# IMDB CLI Management System
 
 This repository contains a command-line application developed as part of an Object-Oriented Programming (OOP) course in the second semester of the second year of my studies at university. The project simulates a simple version of the IMDB platform, managing information related to movies, actors, TV shows, and more.
 
 ## 📂 Repository Structure
 
-- **Sources:**
+- **Source Files:**
   - [Actor](src/Actor.java)               – Contains class related to actors and their attributes.  
   - [Admin](src/Admin.java)               – Contains class for adminin user, implementing functionalities like user management.  
   - [Contributor](src/Contributor.java)   – Handles the functionalities for contributors who add content.  
@@ -38,6 +38,15 @@ This repository contains a command-line application developed as part of an Obje
 - **Reviews**: Add or remove reviews for productions, giving users the ability to share their opinions.
 - **User Management**: Administrators can manage users, including adding or removing users from the system.
 
+## 🖥️ Technologies Used  
+
+- **Java** – Main programming language used.  
+- **Object-Oriented Programming (OOP)** – The application follows OOP principles for modularity and reusability.  
+- **Collections Framework** – Uses `ArrayList`, `List`, and `Map` for efficient data management.  
+- **Scanner (Java.util.Scanner)** – Handles user input for CLI interactions.  
+- **Comparator & Sorting** – Implements custom sorting logic for movie reviews and actors.  
+- **Enums** – Used for defining genres and request types.  
+
 ## 🚀 Running the Application
 
-To run the application, simply execute the `Test` class. It will create an `IMDb` object and call the `run()` function to start the application.
+To run the application, simply execute the `Test` class. It will create an `IMDB` object and call the `run()` function to start the application.
