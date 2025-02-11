@@ -5,25 +5,25 @@ This repository contains a command-line application developed as part of an Obje
 ## 📂 Repository Structure
 
 - **Sources:**
-  - [Actor](src/Actor)               – Contains class related to actors and their attributes.  
-  - [Admin](src/Admin)               – Contains class for adminin user, implementing functionalities like user management.  
-  - [Contributor](src/Contributor)   – Handles the functionalities for contributors who add content.  
-  - [Credentials](src/Credentials)   – Contains class related to credentials.  
-  - [Episode](src/Episode)           – Manages the data related to episodes in series.  
-  - [IMDb](src/IMDB)                 – Core functionality of the IMDb-like application, responsible for managing movies, series, actors, etc.
-  - [Input](src/Input)               – Handles user input and parsing.
-  - [Movie](src/Movie)               – Contains classes for managing movie data, including titles, genres, and release dates.  
-  - [Production](src/Production)     – Manages production-related details of movies and series.  
-  - [Rating](src/Rating)             – Manages rating and review functionality for movies and series.  
-  - [Regular](src/Regular)           – Contains regular user functionalities like rating and managing requests.  
-  - [Request](src/Request)           – Contains class related to user requests for specific movie, actor, account or other.  
-  - [Requests Manager](src/RequestsManager) – Interface that manages user requests.
-  - [Series](src/Series)             – Manages data related to TV series, including episodes and seasons.  
-  - [Staff](src/Staff)               – Contains class related to the staff users (contributor and admin) and functionalities like adding or removing productions or actors.  
-  - [Staff Interface](src/StaffInterface) – Interface for handling staff functionalities.
-  - [Test](src/Test)                 – The file that should be run for testing the IMDb-like application 
-  - [User](src/User)                 – Manages the user data, such as registration and profile.  
-  - [Userfactory](src/UserFactory)   – Factory pattern to handle user creation and management.
+  - [Actor](src/Actor.java)               – Contains class related to actors and their attributes.  
+  - [Admin](src/Admin.java)               – Contains class for adminin user, implementing functionalities like user management.  
+  - [Contributor](src/Contributor.java)   – Handles the functionalities for contributors who add content.  
+  - [Credentials](src/Credentials.java)   – Contains class related to credentials.  
+  - [Episode](src/Episode.java)           – Manages the data related to episodes in series.  
+  - [IMDb](src/IMDB.java)                 – Core functionality of the IMDb-like application, responsible for managing movies, series, actors, etc.
+  - [Input](src/Input.java)               – Handles user input and parsing.
+  - [Movie](src/Movie.java)               – Contains classes for managing movie data, including titles, genres, and release dates.  
+  - [Production](src/Production.java)     – Manages production-related details of movies and series.  
+  - [Rating](src/Rating.java)             – Manages rating and review functionality for movies and series.  
+  - [Regular](src/Regular.java)           – Contains regular user functionalities like rating and managing requests.  
+  - [Request](src/Request.java)           – Contains class related to user requests for specific movie, actor, account or other.  
+  - [Requests Manager](src/RequestsManager.java) – Interface that manages user requests.
+  - [Series](src/Series.java)             – Manages data related to TV series, including episodes and seasons.  
+  - [Staff](src/Staff.java)               – Contains class related to the staff users (contributor and admin) and functionalities like adding or removing productions or actors.  
+  - [Staff Interface](src/StaffInterface.java) – Interface for handling staff functionalities.
+  - [Test](src/Test.java)                 – The file that should be run for testing the IMDb-like application 
+  - [User](src/User.java)                 – Manages the user data, such as registration and profile.  
+  - [User Factory](src/UserFactory.java)   – Factory pattern to handle user creation and management.
 
  ## 🛠 Features 
 - **User Authentication**: Users can log in to the system by providing their email and password.
